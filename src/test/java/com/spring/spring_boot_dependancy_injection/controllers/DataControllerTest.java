@@ -8,9 +8,9 @@ import org.springframework.test.context.ActiveProfiles;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-//@ActiveProfiles("dev")
-@ActiveProfiles("uat")
-//@ActiveProfiles("qa")
+@ActiveProfiles({"dev", "EN"})
+// @ActiveProfiles("uat")
+// @ActiveProfiles("qa")
 @SpringBootTest
 class DataControllerTest {
 
