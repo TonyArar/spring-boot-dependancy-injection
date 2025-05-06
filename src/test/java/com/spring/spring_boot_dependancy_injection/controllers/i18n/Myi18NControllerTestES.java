@@ -7,7 +7,11 @@ import org.springframework.test.context.ActiveProfiles;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@ActiveProfiles("ES")
+/**
+ * when no profile is active, the default profile is used
+ * @see com.spring.spring_boot_dependancy_injection.services.i18n.EnglishGreetingService
+ */
+// @ActiveProfiles("ES")
 @SpringBootTest
 class Myi18NControllerTestES {
 
